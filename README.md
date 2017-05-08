@@ -31,6 +31,7 @@ Deep Blue
 The mechanical design of the bot includes mounting of:
 
 1. 1)Stepper  Motor (12 volt)(1):
+
 https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-10-Image-18.jpg
 
 1. 2)Servo Motor(6 volt)(x3):
@@ -80,7 +81,7 @@ https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-4-Image-3.
 7)Abhijeetsinh Vansia (BT 2nd Year)
 
 8)Satyam Singh (EE 2nd Year)
-
+https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-10-Image-18.jpg?raw=true
 9)Subramania Siva (ME 1st Year)
 
 
