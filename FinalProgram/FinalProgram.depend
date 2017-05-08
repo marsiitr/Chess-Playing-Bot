@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1485452391 source:f:\chess bot\codeblocks\finalprogram\main.cpp
+	<iostream>
+	<string>
+	"Connector.hpp"
+	"movegen.hpp"
+	"move.hpp"
+
+1484987196 f:\chess bot\codeblocks\finalprogram\connector.hpp
+	<windows.h>
+	<stdio.h>
+	<iostream>
+	<string>
+
+1485497596 f:\chess bot\codeblocks\finalprogram\movegen.hpp
+	<iostream>
+	<string>
+
+1485497695 f:\chess bot\codeblocks\finalprogram\move.hpp
+	<iostream>
+	<string>
+	"movegen.hpp"
+

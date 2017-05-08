@@ -1,0 +1,15 @@
+#include<math.h>
+
+int B;
+float r,x,U;
+int servo2Pos(int servo1Pos,int r)
+{
+	B=135-servo1Pos;
+	x=r-(40*cos((B*22)/(7*180)));
+	U=acos(x/40);
+	U=U*180*7/22;
+	U=90-U;
+	U=U+45
+	servo2Pos=U-(U%1);
+	return servo2Pos;
+}

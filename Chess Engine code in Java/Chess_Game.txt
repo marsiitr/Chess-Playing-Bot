@@ -1,0 +1,93 @@
+HumanVsComp.java
+================
+	class HumanVsComp
+	-> It contains main function
+
+AiChess.java
+============
+	class AiChess
+	-> this is just a JFrame shell to load the GUI
+
+Board.java
+===========
+	class Board
+	-> The Board class is responsible for graphically depicting the board and
+  pieces on the screen. The drawing surface is a JPanel. The primitive shapes
+  were created by using draw commands on the graphics contexts of blank transparent
+  BufferedImages. The BuffereImages were then darwn to the graphics context of the
+  JPanel. This strategy was chosen to facilitate switching between "hand drawn"
+  pieces and external loaded image files. 
+
+Pieces.java
+===========
+	class Pieces
+	-> defined some values that serve double duty, they identify each piece in the position array, and the values also support material evaluation of the position.
+
+
+Data.java
+===========
+	class Data
+	-> Defined Static arrays in support of MoveGen for category 1 pieces. Each array element represents the possible destination squares for a piece that occupoies the square denoted by the array index. This code was generated programatically for accuracy
+
+
+Game.java
+============
+	class Game
+	-> wrote function move() for handling each move made in the game. Updates the central game state object. Other function in this class called by event handler mouse for the right or left Button in the GUI.
+
+MoveList.java
+==============
+	class MoveList
+	-> this class extends ArrayList and defined undo function.
+
+Utils.java
+=============
+	class Utils
+	-> this class responsible for mapping piece or square representation. Functions defined here converts the position component of a fen String to a position array and vice versa. 
+
+
+GameState.java
+===============
+	class GameState
+	-> functions that builds GameState object from a fen String And vice versa.
+
+Move.java
+=================
+	class Move
+	-> constructor that makes move from source square to destination square and change the game state object accordingly.  
+
+Output.java
+===============
+	class Output
+	-> Formatting string in case of output. 
+
+Gui.java
+===============
+	class Gui
+	-> handling all the mouse events(pressed, dragged, clicked..etc). It also contains method which resets the board and game state variables according to the fen string. And tells AiExplorer to make a move in the current position. Currently the selection is random. 
+
+AiExplorer.java
+=================
+	class AiExplorer
+	->  The AiExplorer class will contain all the methods for evaluating and selecting moves,
+  as opposed to merely generating the moves, which is a function of MoveGen. In the Engine
+  class you will find all the recursive tree methods such as negamax, alphabeta, quiescent
+  search, evaluation functions, etc.
+
+WP = 10;
+BP = -10;
+WR = 50;
+BR = -50;
+WN = 29;
+BN = -29;
+WB = 30;
+BB = -30;
+WQ = 90;
+BQ = -90;
+WK = 1;
+BK = -1;
+alpha = -100000, beta = 100000;
+
+Negamax ( which is equivalent to MiniMax ), is the standard base recursion algorithm for traversing (searching) game trees. Negamax will examine every possible variation, even obviously bad ones. It can be very slow. AlphaBeta pruning is added to the picture to improve the performance of negamax, and it serves this purpose very well. It does so by eliminating from further analysis those variations that, based on best play by both sides, can't possibly change the final decision. Assuming we are searching at a fixed depth, alphaBeta will make the same move as negaMax, only it will do so faster. 
+
+An evaluate() function is a must. evaluate() assigns a value to those positions at the end of the search tree (leaf nodes). Negamax/alpha beta provides a means of comparison of values assigned by evaluate(). At this point, evaluate() only calculates the material balance. that is sum of all assigned value.  
