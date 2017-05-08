@@ -1,6 +1,7 @@
 # Chess Playing Robot(a.k.a &#39;The Turk&#39;)
 
-#
+#![Image](https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-1-Image-1.jpg)
+
 
 #
 
