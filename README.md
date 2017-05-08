@@ -30,26 +30,24 @@ Deep Blue
 
 The mechanical design of the bot includes mounting of:
 
-1. 1)Stepper  Motor (12 volt)(1):
-
-https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-10-Image-18.jpg
-
-1. 2)Servo Motor(6 volt)(x3):
-https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-10-Image-19.jpg
+ 1)Stepper  Motor (12 volt)(1):
 
 
 
-1. 3)Arduino Uno(x1):
-https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-3-Image-2.jpg
+ 2)Servo Motor(6 volt)(x3):
 
-1. 4)Adapter(12V,5A)(x2)
-https://github.com/marsiitr/Chess-Playing-Bot/blob/master/images/Page-4-Image-3.jpg
 
-1. 5) L298 Motor Drivers(1):
 
-1. 6) Gears(x3):
 
-1. 7)Combination of LM317 and potentiometer  for voltage regulation:
+ 3)Arduino Uno(x1):
+
+
+ 4)Adapter(12V,5A)(x2)
+ 5) L298 Motor Drivers(1):
+
+ 6) Gears(x3):
+
+ 7)Combination of LM317 and potentiometer  for voltage regulation:
 
 8)Castor Wheels(3):
 
