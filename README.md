@@ -7,7 +7,6 @@ Chess playing robot is a semi automated robot.It consists of a mechanical arm to
 Acknowledgement:
 
 We would like to express our special thanks of gratitude to our mentors Sushant Samuel(EE 3rd year),Animesh (GPT 4th year)and Anmol Popli (EE 3rd Year) as well as our guide and senior mentor Prashant Shekhar Singh(EE 4th  year & secretary, Models and Robotics Section) and Sparsh Gupta (EE 4th Year) who gave us the golden opportunity to do this wonderful project  which helped us in doing a lot of research and we came to know about so many new things.
-THANKS AGAIN TO ALL WHO HELPED US.
 
 Motivation:
 
@@ -28,7 +27,13 @@ The mechanical design of the bot includes:
  
 Work:
 
-The bot consists of Stepper motor mounted at the base which provides angular movement.The mechanical arm picks and drops pieces with the help of gripper.The arm movement is controlled by using 3 servo motors.The motors are synced by using microcontroller Arduino Uno.Camera is mounted at top to detect opponent’s move.We have developed two version of chess engine ,one is in Java and other is in C++.
+The bot consists of Stepper motor mounted at the base which provides angular movement.The mechanical arm picks and drops pieces with the help of gripper.The arm movement is controlled by using 3 servo motors.The motors are synced by using microcontroller Arduino Uno.Camera is mounted at top to detect opponent’s move.We have developed our own version of chess engine which is in Java but used opensource chessengine stockfish.
+movegen.hpp sets up values for different pieces and initialises setup of board, move.hpp validates the move executed by player. connector.hpp connects our code to stockfish (opensource) chessengine , it sends string to the chessengine which shows current position to chessengine , chessengine takes string for next move of computer (BOT) which is executed by BOT.As the string of chessengine does not shows exact sequence of moves of BOT, the moves for BOT is determined by move_erray.hpp which sends string to arduino. tserial.cpp and bot_control.hpp contains code for communication with arduino. main.cpp (source file) contains sequential program to play moves one by one by player and BOT.
+
+Future improvements:
+
+1.For better control of arm,use DC motor instead of stepper motor.
+2.Use Deep learning to improve and make your own chessengine.
 
 Team members:
 
