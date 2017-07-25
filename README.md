@@ -1,4 +1,4 @@
-# Chess Playing Robot (a.k.a "The Turk"):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-1-Image-1.jpg"></div></li>
+# Chess Playing Robot (a.k.a "The Turk"):</p><div><img src="https://github.com/NishantVipin/Chess-Playing-Bot/blob/patch-2/images/DSC_0160.JPG?raw=true"></div></li>
  
  # Abstract:
 
@@ -65,7 +65,7 @@ For determining move made by player through taking two pictures with the web cam
 <li><a href="https://www.facebook.com/anmol.popli">Anmol Popli</a></li>
 </ul>
 
-Thank You!!!!
+# Thank You!!!!
 
 
 
