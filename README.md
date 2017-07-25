@@ -55,7 +55,7 @@ For determining move made by player through taking two pictures with the web cam
 <li><a href="https://www.facebook.com/subramaniya.siva.33">Subramania Siva</a></li>
 </ul>
 
-# Mentors
+# Mentors:
 
 <ul>
 <li><a href="https://www.facebook.com/sparsh.gupta.18">Sparsh Gupta</a></li>
