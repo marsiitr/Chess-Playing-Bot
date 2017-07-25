@@ -65,6 +65,13 @@ For determining move made by player through taking two pictures with the web cam
 <li><a href="https://www.facebook.com/anmol.popli">Anmol Popli</a></li>
 </ul>
 
+# Special Credit:
+
+<ul>
+<li><a href="https://www.facebook.com/pal.nabarun95">Nabarun Pal</a></li>
+<li><a href="https://www.facebook.com/prasants021">Prashant Shekhar Singh (Secretary of Models and Robotics Section)</a></li>
+</ul>
+
 # Thank You!!!!
 
 
