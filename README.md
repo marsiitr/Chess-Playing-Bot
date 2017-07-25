@@ -1,4 +1,4 @@
-# Chess Playing Robot(a.k.a "The Turk"
+# Chess Playing Robot (a.k.a "The Turk"):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-1-Image-1.jpg"></div></li>
  
  # Abstract:
 
@@ -16,14 +16,14 @@ Deep Blue was a chess-playing computer developed by IBM. Deep Blue won its first
 # Hardware:
 
 The mechanical design of the bot includes:
-1)	Stepper  Motor (12 volt)(1):
-2)	Servo Motor (6 volt)(x3):
-3)	Arduino Uno(x1):
-4)	Adapter(12V,5A)(x2)
-5)	L298 Motor Drivers(1):
-6)	Gears(x3):
-7)	Combination of LM317 and potentiometer  for voltage regulation:
- 8) Castor Wheels(3):
+1)	Stepper  Motor (12 volt)(1):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-3-Image-2.jpg"></div></li>
+2)	Servo Motor (6 volt)(x3):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-4-Image-3.jpg"></div></li>
+3)	Arduino Uno(x1):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-4-Image-4.jpg"></div></li>
+4)	Adapter(12V,5A)(x2):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-5-Image-5.jpg"></div></li>
+5)	L298 Motor Drivers(1):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-5-Image-6.jpg"></div></li>
+6)	Gears(x3):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-5-Image-7.jpg"></div></li>
+7)	Combination of LM317 and potentiometer  for voltage regulation:</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-6-Image-8.jpg"></div></li>
+ 8) Castor Wheels(3):</p><div><img src="https://raw.githubusercontent.com/marsiitr/Chess-Playing-Bot/master/images/Page-6-Image-9.jpg"></div></li>
  
 # Work:
 
