@@ -41,19 +41,29 @@ For determining move made by player through taking two pictures with the web cam
 Future improvements:
 
 1.For better control of arm,use DC motor instead of stepper motor.
+
 2.Use Deep learning to improve and make your own chessengine.
 
 Team members:
 
-1)Prashant Shekhar Singh(EE 4th year, Mentor& secretary of Models and Robotics Section)
+1)Prashant Shekhar Singh(EE 4th year, Mentor and secretary of Models and Robotics Section)
+
 2)Sparsh Gupta (EE 4th year,Mentor)
+
 3)Sushant (EE 3rd year,Mentor)
+
 4)Animesh(GPT 4th year,Mentor)
+
 5)Anmol Popli (EE 3rd year,Mentor)
+
 6)Ashwani Srivastava(EE,2nd Year)
-7)Vipin Kumar (ME,2nd year)
+
+7)Vipin Kumar (ME,2nd year
+
 8)Abhijeetsinh Vansia (BT,2nd Year)
+
 9)Satyam Singh (EE,2nd Year)
+
 10)Subramania Siva (ME,1st Year)
  
 
